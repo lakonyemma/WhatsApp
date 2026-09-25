@@ -1,0 +1,21 @@
+<Page x:Class="WhatsAppClone.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <ScrollViewer>
+        <Grid MinHeight="600">
+            <StackPanel Width="360" MaxWidth="360" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="24">
+                <TextBlock Text="WhatsApp" FontSize="34" FontWeight="SemiBold" HorizontalAlignment="Center" />
+                <TextBlock Text="Sign in to your local chat demo" Margin="0,8,0,28" HorizontalAlignment="Center" />
+                <TextBox x:Name="IdentifierInput" Header="Email or phone number" PlaceholderText="Enter your email or phone" Margin="0,0,0,14" />
+                <PasswordBox x:Name="PasswordInput" Header="Password" Margin="0,0,0,20" />
+                <Button x:Name="LoginButton" Content="Log in" Click="LoginButton_Click"
+                        Background="{StaticResource ChatAccentBrush}" Foreground="White"
+                        HorizontalAlignment="Stretch" Margin="0,0,0,16" />
+                <TextBlock x:Name="Feedback" TextWrapping="Wrap" Foreground="#FFC62828" Margin="0,0,0,18" />
+                <Button Content="Forgot password?" Click="ForgotPassword_Click" HorizontalAlignment="Center" />
+                <Button Content="Create account" Click="CreateAccount_Click" HorizontalAlignment="Center" Margin="0,10,0,0" />
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

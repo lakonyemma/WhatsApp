@@ -1,0 +1,10 @@
+.vs/
+**/bin/
+**/obj/
+**/AppPackages/
+*.user
+*.suo
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle

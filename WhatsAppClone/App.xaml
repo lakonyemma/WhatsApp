@@ -1,0 +1,8 @@
+<Application x:Class="WhatsAppClone.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="ChatAccentBrush" Color="#FF128C7E" />
+        <SolidColorBrush x:Key="SentBubbleBrush" Color="#FFDCF8C6" />
+    </Application.Resources>
+</Application>

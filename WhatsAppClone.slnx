@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x86" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="WhatsAppClone/WhatsAppClone.csproj" Id="b7c43bb4-6713-42cd-9ebe-c1ac6a752ea9">
+    <Platform Solution="*|x86" Project="x86" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Deploy />
+  </Project>
+</Solution>
